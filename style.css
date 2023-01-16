@@ -1,0 +1,322 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --frist-colour: #131313;
+    --2nd-colour: #727272;
+    --3rd-colour: #FFFFFF;
+    --bg-colour: rgba(255, 144, 14, 0.1);
+    --margin: 0% 8%;
+
+}
+
+.nav-main-title {
+    margin: var(--margin);
+}
+
+.main-header {
+    background-color: var(--bg-colour);
+    height: 1100px;
+    width: auto;
+}
+
+/* This is nav */
+.main-nav {
+    display: flex;
+    margin: var(--main-margin);
+    padding-top: 2vw;
+    justify-content: space-between;
+
+}
+
+li:hover {
+    background-color: rgb(237, 183, 113);
+    margin: 2px;
+    padding: 8px;
+    transition: margin 2s, padding 0.5s;
+    border-radius: 10px;
+}
+
+.nav-title {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-heading {
+    color: var(--frist-colour);
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Btn */
+.primari-btn {
+    border-radius: 64px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    border: 0;
+    padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+    /* white-space: nowrap; */
+
+}
+
+.primari-btn:hover {
+    background-color: rgb(77, 236, 19);
+}
+
+/* This is header text */
+.text-title {
+    margin: 5% 30%;
+
+}
+
+.title-text {
+    text-align: center;
+    margin: 5%;
+
+}
+
+.sub-text {
+    text-align: justify;
+    margin: 5%;
+}
+
+#btn {
+    margin: 0% 30%;
+    white-space: nowrap;
+
+}
+
+.frist-image {
+    width: 84%;
+    margin: var(--margin);
+}
+
+/* This is main body */
+main {
+    width: 100%;
+}
+
+/* This is main Body & Frist Block */
+.main-section {
+    display: flex;
+    margin: var(--margin);
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.block-one-main {
+    margin-top: 20%;
+}
+
+.image-continar {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 0.7vw;
+    margin-right: 5%;
+
+}
+
+.block-one-main {
+    color: var(--2nd-colour);
+    padding: 2%;
+}
+
+#frist {
+    color: var(--frist-colour);
+}
+
+#two {
+    color: #FF900E;
+}
+
+.block-one-title {
+    margin-bottom: 2vw;
+    text-align: center;
+}
+
+.block-two-title {
+    text-align: justify;
+
+}
+
+#btn-two {
+    margin-top: 3vw;
+    margin-left: 5vw;
+    white-space: nowrap;
+
+}
+
+/* This is Footer */
+footer {
+    text-align: center;
+    color: var(--frist-colour);
+    margin: var(--main-margin);
+    background-color: var(--bg-colour);
+    margin: 2vw 8%;
+    padding: 20px;
+}
+
+/* This is block two */
+.box {
+    width: 45%;
+    height: 171px;
+    left: 240px;
+    top: 2575px;
+    padding: 10px;
+    justify-content: center;
+    background: #FFFFFF;
+    padding-left: 20px;
+    box-shadow: 0px 4px 30px #ff8f0e5b;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.box:hover {
+    background-color: rgba(20, 220, 110, 0.63);
+}
+
+.container-second {
+    margin-top: 5%;
+    margin: var(--margin);
+    display: flex;
+    /* padding-left: 70px; */
+    /* padding-right: 70px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.archi-title {
+    width: 40%;
+    border-left: solid orangered;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    padding: 10px;
+}
+
+.third-title-minitext {
+    width: 40%;
+
+    margin-bottom: 1%;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.archi-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    padding: 10px;
+}
+
+.subtitle-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.image-archi {
+    position: absolute;
+    /* position: relative;  */
+    width: 550px;
+    height: 1040px;
+    left: 52%;
+    top: 141vw
+}
+
+#three {
+    position: absolute;
+    margin-top: 77%;
+    margin-left: 13%;
+}
+
+/* This is block three */
+.three {
+    margin: var(--margin);
+    margin-top: 5%;
+}
+
+.three-title {
+    margin-bottom: 2%;
+    color: var(--frist-colour);
+}
+
+.three-sub-title {
+    color: var(--2nd-colour);
+}
+
+/* This is block Four */
+.award-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.border {
+    margin-top: 10%;
+    padding-top: 5px;
+    width: 241px;
+    height: 230px;
+
+    border: 3px solid #FF900E;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.plan-title {
+    font-weight: 600;
+    padding-bottom: 5%;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+}
+
+.skill-title {
+    padding-top: 5%;
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* This is block five */
+.five {
+    width: 542px;
+    height: 129px;
+    margin: 0% 30%;
+}
+
+.five-title {
+    text-align: center;
+    margin-top: 8%;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+
+}
+
+.five-subtitle {
+    text-align: center;
+}
+.sponspot{
+    margin: var(--margin);
+    margin-top: 5%;
+    margin-bottom: 8%;
+
+}
+.img-s{
+    margin-left: 5%;
+}
